@@ -1,0 +1,12 @@
+name: export-calibration
+on: [workflow_dispatch]
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: tar -czf calibration_bundle.tar.gz calibration_*.tsv || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: calibration-tsvs
+          path: calibration_bundle.tar.gz
