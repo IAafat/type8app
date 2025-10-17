@@ -1,0 +1,6 @@
+id	level_id	code	label	range_or_sequence	description
+1	1	Ω	omega	66-99.99	Upper band within L1
+2	1	α	alpha	1.1324-66.66	Ascending band within L1
+3	1	β	beta	7|14|48	Discrete waypoints (validate)
+4	1	γ	gamma	5|25|55	Discrete waypoints (validate)
+5	1	ψ	psi	2.183|21|28.18234	Discrete waypoints (validate)

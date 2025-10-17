@@ -1,0 +1,7 @@
+type8.sqlite
+backup/
+*.db
+*.sqlite*
+*.tar.gz
+*.zip
+*.sha256

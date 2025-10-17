@@ -1,0 +1,3 @@
+id	factor	value	rule	example	notes
+1	bisect	2.0	adjacent to bisectable; mirror halves	22222÷2=11111	Half-symmetry rule
+2	continuous	1.1	linearly improvising uniform order	1.13→2.26→3.39→…	Smooth progression factor

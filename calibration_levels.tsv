@@ -1,0 +1,3 @@
+level_id	name	numeric_range	notes
+1	Level1	1-100	Base scale for day-to-day counts
+2	Level2	100-1000	Higher magnitude band
